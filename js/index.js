@@ -5,8 +5,8 @@ const footerTitleEls = document.querySelectorAll('.footer__section__title')
 const is_expanded = 'is-expanded'
 
 const toggleExpandSection = element => () =>
-  element.classList.toggle(is_expanded)
+	element.classList.toggle(is_expanded)
 
 footerTitleEls.forEach(el =>
-  el.addEventListener('click', toggleExpandSection(el.parentElement))
+	el.addEventListener('click', toggleExpandSection(el.parentElement))
 )
