@@ -1,0 +1,133 @@
+.header {
+	position: relative;
+	background-image: url(../media/header.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.header .top {
+	position: absolute;
+	top: 0;
+	height: 10rem;
+	width: 100%;
+	display: grid;
+	align-items: center;
+	justify-content: end;
+}
+
+.login__link {
+	margin-right: 2rem;
+	color: #fff;
+	font-size: 1.5rem;
+	text-transform: capitalize;
+	background-color: transparent;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.login__link:focus {
+	outline: none;
+}
+
+.header .bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 25rem;
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+	align-items: center;
+	padding: 2rem;
+	background: linear-gradient(
+		179.81deg,
+		rgba(4, 4, 4, 0.7) 0.17%,
+		rgba(4, 4, 4, 0.45) 85.02%,
+		rgba(4, 4, 4, 0.3) 112.52%
+	) !important;
+}
+
+.header .bottom .logo {
+	height: 3rem;
+}
+
+.bottom__middle__section {
+	text-align: center;
+}
+
+.header .title {
+	color: var(--logo-green);
+	font-size: 1.3rem;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	line-height: 3;
+}
+
+.bottom__middle__section .description {
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+
+.header .free__trial__buttton {
+	color: #fff;
+	display: inline-block;
+	padding: 1.5rem 3rem;
+	text-transform: uppercase;
+	border: 0.2rem solid white;
+	border-radius: 0.5rem;
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+
+.header .middle {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+	text-align: center;
+	padding: 10rem 2rem;
+}
+
+.header .middle .middle__banner {
+	padding: 0 2rem;
+}
+
+.header .middle .middle__banner img {
+	height: 100%;
+	width: 100%;
+}
+
+.header .middle .subtitle {
+	margin-top: 0.5rem;
+	font-weight: 600;
+	margin-top: 0.8rem;
+	font-size: 1.8rem;
+	line-height: 1.4;
+}
+
+.header .bundle__button {
+	background: white;
+	color: black;
+	font-size: 1.5rem;
+	font-weight: 700;
+	border-radius: 0.5rem;
+	margin: 2.5rem 0;
+
+	width: 80%;
+	max-width: 30rem;
+	height: 5rem;
+}
+
+.header .bundle__button:hover {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.header .details {
+	opacity: 0.7;
+}
+
+.header .details a {
+	color: white;
+	text-decoration: underline;
+}
