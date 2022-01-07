@@ -12,8 +12,12 @@ const is_open = 'is-open'
 const toggleExpandSection = element => () =>
 	element.classList.toggle(is_expanded)
 
-const toggleModal = () => modalContainerEl.classList.toggle(is_open)
+const toggleModal = () => {
+	console.log('toggleModal')
+	modalContainerEl.classList.toggle(is_open)
+}
 
+modalContainerEl.addEventListener('click', () => console.log('clicked'))
 loginLinkEl.addEventListener('click', toggleModal)
 modalCloseEl.addEventListener('click', toggleModal)
 

@@ -87,6 +87,9 @@
 	justify-items: center;
 	text-align: center;
 	padding: 10rem 2rem;
+	padding-top: 15vh;
+	margin: 0 auto;
+	max-width: 80rem;
 }
 
 .header .middle .middle__banner {

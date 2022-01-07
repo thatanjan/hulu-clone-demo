@@ -16,10 +16,11 @@
 .login__modal {
 	height: 100vh;
 	background-color: white;
-	padding: 0rem 3rem;
-	max-width: 70rem;
+	max-width: 50rem;
 	width: 90%;
 	min-width: 20rem;
+	padding: 5rem;
+	padding-top: 0;
 }
 
 .modal__header {
