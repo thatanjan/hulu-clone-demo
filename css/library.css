@@ -1,9 +1,9 @@
 .library {
-    min-height: 100vh;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+	min-height: 100vh;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .library__header {
@@ -43,6 +43,7 @@
 .library__grid__item {
 	display: block;
 	position: relative;
+	width: 100%;
 }
 
 .library__grid__item img {
